@@ -33,8 +33,6 @@ Encode the entire JSON structure in Base64, including the access token, and repl
 
 <div style="background-color: #E2F0F7; padding:10px; border-radius:5px "><b>Note:</b> Replace &ltyour_access_token> with the actual access token you obtain by following the instructions in the API documentation.</div>
 
-<div style="background-color: #E2F0F7; padding:10px; border-radius:5px;"><b>Note:</b> Replace &ltyour_access_token> with the actual access token you obtain by following the instructions in the <a href="https://sastotickets-integration-b2b.web.app">API Documentation</a>.</div>
-
 <div style="background-color: #E2F0F7; padding:10px; border-radius:5px; margin-top: 25px; "><p><b>Note:</b> When implementing for web, make sure to provide valid success_url and failure_url values. These URLs will be used for redirection upon success or failure of the SDK integration.</p>
 
 <p>For Android and iOS implementations, success_url and failure_url can be left as null or omitted from the JSON structure. In such cases, the SDK will redirect the user to our default domain for success or failure.</p></div>
