@@ -21,8 +21,8 @@ The SDK initialization URL should follow the format:
 The parameters should be encoded in Base64 format and contain the necessary information for the SDK. Here's an example of the encoded parameter structure:
 
     {
-        "access_token": "<your_access_token>",
-        "phone_number" : "9801234567",
+        "access_token": "<your_access_token>", //required
+        "phone_number" : "9801234567", //required
         "wallet_balance": 2000,
         "app_theme":"System",
         "success_url":"https://domain.com/success",
